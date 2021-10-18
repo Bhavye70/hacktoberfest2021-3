@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="respect.jsp" method="get" enctype="multipart/form-data">
+        <input type="text" name="UserId" autofocus placeholder="Name" required maxlength="10"><br>
+        <input type="number" name="UserId"  placeholder="Number" required maxlength='10' size="10"><br>
+        <input type="email" name="UserId"  placeholder="Email" required><br>
+        <input type="password" name="UserId"  placeholder="password" required><br>
+        <input type="text" name="UserId"  placeholder="UserId" required><br>
+        <label>Gender:</label>
+        <select>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Transgender</option>
+        </select><br>
+        <br>
+        <input type="file" name="UserId"  placeholder="File" required><br>
+        <textarea >Hello</textarea><br>
+        <input type="checkbox"><label>Accept The terms& Conditions</label><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
